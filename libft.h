@@ -6,7 +6,7 @@
 /*   By: tatashir <tatashir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 21:13:16 by tatashir          #+#    #+#             */
-/*   Updated: 2022/12/08 16:56:01 by tatashir         ###   ########.fr       */
+/*   Updated: 2022/12/08 17:06:35 by tatashir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,6 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 long				ft_atol(const char *str);
 
 int					ft_putchar(char c);
-int					ft_putnbr();
+int					ft_putnbr(int n);
 
 #endif
