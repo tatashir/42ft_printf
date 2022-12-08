@@ -6,7 +6,7 @@
 /*   By: tatashir <tatashir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/28 16:31:42 by tatashir          #+#    #+#             */
-/*   Updated: 2022/11/28 16:36:33 by tatashir         ###   ########.fr       */
+/*   Updated: 2022/12/08 16:53:30 by tatashir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_putchar(char c)
 {
-	write(1, &c, 1);
-	return (0);
+	return (write(1, &c, 1));
 }

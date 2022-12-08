@@ -6,13 +6,13 @@
 /*   By: tatashir <tatashir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/05 17:25:45 by tatashir          #+#    #+#             */
-/*   Updated: 2022/12/08 15:29:18 by tatashir         ###   ########.fr       */
+/*   Updated: 2022/12/08 16:58:07 by tatashir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int n)
+int	ft_putnbr(int n)
 {
 	int	count;
 
@@ -53,3 +53,4 @@ int	ft_put_u_nbr(unsigned int n)
 		count += ft_put_u_nbr(n % 10);
 	}
 	return (count);
+}
